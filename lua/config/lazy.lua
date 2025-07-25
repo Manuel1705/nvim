@@ -19,5 +19,5 @@ require("lazy").setup({
 		-- import/override with your plugins
 		{ import = "plugins" },
 	},
-	change_detection = { notify = flase },
+	change_detection = { notify = false },
 })
